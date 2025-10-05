@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chat G-Az</title>
+  <title>Contact Us - Chat G-Az</title>
   <link rel="stylesheet" href="style.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -18,8 +18,8 @@
         <nav class="sidebar-nav">
           <ul>
             <li><a href="about.html"><i class="fa-solid fa-circle-info"></i><span>About Us</span></a></li>
-            <li><a href="index.html" class="active"><i class="fa-solid fa-comments"></i><span>Chat</span></a></li>
-            <li><a href="contact.html"><i class="fa-solid fa-envelope"></i><span>Contact Us</span></a></li>
+            <li><a href="index.html"><i class="fa-solid fa-comments"></i><span>Chat</span></a></li>
+            <li><a href="contact.html" class="active"><i class="fa-solid fa-envelope"></i><span>Contact Us</span></a></li>
           </ul>
         </nav>
         <footer class="sidebar-footer">
@@ -29,22 +29,23 @@
     </aside>
     <main class="chat-container">
       <div class="container">
-        <div class="main-header">
-          <h1>How can I help?</h1>
-          <div class="header-buttons">
-            <button id="download-chat-btn" class="header-action-btn" title="Download chat"><i class="fa-solid fa-download"></i></button>
-            <button id="clear-chat-btn" class="header-action-btn" title="Clear chat history"><i class="fa-solid fa-broom"></i></button>
+        <div class="contact-page-content">
+          <div class="contact-icon">
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+          <h1>Get in Touch</h1><br>
+          <p class="contact-subtitle">I'd love to hear from you!</p>
+
+          <p>Whether you have a question, a project idea, or just want to connect, feel free to reach out. I'm always open to discussing new opportunities and collaborating on exciting projects.</p>
+
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/giftirul-aziz-st-b176135b/" target="_blank" class="contact-link-btn"><i class="fa-brands fa-linkedin"></i> Connect on LinkedIn</a>
+            <a href="https://github.com/giftirul" target="_blank" class="contact-link-btn"><i class="fa-brands fa-github"></i> See my GitHub</a>
           </div>
         </div>
-        <div id="chat-box" class="chat-box"></div>
-        <form id="chat-form">
-          <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" required />
-          <button type="submit">Send</button>
-        </form>
       </div>
     </main>
   </div>
   <script src="ui.js"></script>
-  <script src="script.js"></script>
 </body>
 </html>
